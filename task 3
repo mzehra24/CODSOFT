@@ -1,0 +1,5 @@
+import random
+import string
+len_password=int(input("Enter length of password :"))
+generated_password=''.join(random.choices(string.ascii_letters, k=len_password))
+print(generated_password)
